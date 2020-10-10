@@ -1,0 +1,8 @@
+@import './assets/styles/global.scss';
+
+
+.app-content {
+  padding-top: ($logo_header_height + ($logo_padding_top_and_bottom * 2));
+  background-color: $lighter_gray;
+  min-height: calc(100vh - (#{ $logo_header_height } + (#{ $logo_padding_top_and_bottom } * 2)));
+}
